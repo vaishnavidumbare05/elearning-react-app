@@ -1,0 +1,18 @@
+# === Frontend heavy folders ===
+frontend/node_modules/
+frontend/.cache/
+frontend/build/
+
+# === Backend vendor (if PHP Composer used) ===
+backend/vendor/
+
+# === Logs, environment, temporary files ===
+*.log
+*.env
+npm-debug.log*
+
+# === OS and editor files ===
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

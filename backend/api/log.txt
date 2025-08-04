@@ -1,0 +1,97 @@
+Incoming Request: null
+Incoming Request: null
+Incoming Request: null
+Incoming Request: null
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+Incoming Request: null
+❌ Missing userId or courseId
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+📩 Received Data: null
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Data: 
+Received Course Data: null
+Received Data: null
+Received Data: null
+Received Data: []
+Received Data: {"course_id":"","title":"how are ypu","duration":"40 mmin","status":"pending"}
+Received Data: []
+Received Data: {"course_id":"","title":"How are you","duration":"4 min","status":"pending"}
+Received Data: {"course_id":"","title":"How are you","duration":"4 min","status":"pending"}
+Received Data: {"course_id":"","title":"ho","duration":"4","status":"pending"}
+Received Data: {"title":"how","duration":"15","status":"pending"}
+Received Data: {"title":"dfxcgvhbjnk","duration":"45","status":"pending"}
+Received Data: {"title":"Software development","duration":"45","status":"pending"}
+Received Data: {"title":"Java Programming","duration":"50","status":"pending"}

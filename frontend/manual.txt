@@ -1,0 +1,60 @@
+npm install axois  # for backend
+cd backend
+node server.js
+
+npm install axios   Axios simplifies making HTTP requests in React.
+
+npm install mongoose
+npm install bcrypt
+npm install jsonwebtoken
+npm install cors
+npm install reactstrap bootstrap #for UI bootstrap
+npm install react-slick
+npm install slick-carousel  #for cardslider
+
+npm install react-icons  #for icons
+pm install axios      #for 
+npm install bootstrap-icons  #for bootstrap icons
+pm install bootstrap 
+npm install reactstrap   #for 
+npm install react-slick
+npm install slick-carousel  #for cardslider
+npm install stream-http
+npm install @fortawesome/fontawesome-free
+
+
+composer require firebase/php-jwt
+
+
+
+
+
+install mongodb https://www.mongodb.com/try/download/community and mongodb shell  https://www.mongodb.com/try/download/shell
+https://www.mongodb.com/try/download/compass   for database
+in C diretory create a folder data/db
+
+
+open cmd and type mongod and in new cmd type mongosh
+
+update php.ini file
+extension=mongodb
+
+
+
+login details
+
+
+ajit45@admin.com
+password
+
+#python
+ajit@admin.com
+Ajit@1406
+
+#web development
+aniket@admin.com
+password
+
+
+http://localhost/backend/api/add-courses.php    #to add new course
+http://localhost/backend/api/add-course-form.php  #to add new course content

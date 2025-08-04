@@ -1,0 +1,181 @@
+body {
+  background-color: #f5f5f5; /* Hex code for ghost white */
+}
+
+/* Dashboard.css */
+
+.card {
+  transition: transform 0.2s, box-shadow 0.2s; /* Transition for smooth effect */
+}
+.card.shadow-custom {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Custom shadow */
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Cover the space without stretching */
+  border-radius: 0.5rem; /* Rounded corners for the image */
+}
+
+.refer-banner {
+  font-size: 1.1rem; /* Slightly larger text */
+}
+
+.progress {
+  height: 1rem; /* Adjust height of the progress bar */
+}
+
+.progress-bar {
+  background-color: #28a745; /* Green color for progress */
+}
+
+.refer-banner {
+  transition: width 0.3s ease; /* Smooth transition for width changes */
+}
+
+@media (max-width: 576px) {
+  .degree-card {
+    margin-left: 35px;
+  }
+  .refer-banner {
+    width: 100%; /* Ensure full width on small screens */
+  }
+}
+
+.gift-icon svg {
+  animation: bounce 2s infinite;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+/* Scrolling Wrapper for Degree Programs */
+.degree-programs-wrapper {
+  display: flex; /* Flexbox layout for horizontal alignment */
+  flex-wrap: nowrap; /* Prevent wrapping, forcing horizontal scroll */
+  overflow: hidden; /* Hide scrollbars */
+  padding: 10px 0; /* Add padding for spacing */
+  width: 100%; /* Ensure the wrapper takes the full width of the screen */
+  position: relative; /* Position relative to allow absolute positioning of scrolling effect */
+  animation: scroll 20s linear infinite; /* Add animation for auto-scrolling */
+}
+
+/* Define the scrolling animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0); /* Start position */
+  }
+  100% {
+    transform: translateX(
+      -100%
+    ); /* End position, scroll all the way to the left */
+  }
+}
+
+/* For degree cards */
+.degree-card {
+  flex: 0 0 auto; /* Ensure cards are not flexible in size */
+  min-width: 300px; /* Set minimum width */
+  max-width: 300px; /* Set maximum width */
+  border: 1px solid #ddd; /* Border for better separation */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effect */
+  overflow: hidden; /* Ensure content stays within bounds */
+  background-color: white; /* White background for cards */
+}
+
+/* Hover effect for degree card */
+.degree-card:hover {
+  transform: translateY(-5px); /* Move the card slightly up on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+}
+
+/* Card image styling */
+.degree-card-img-top {
+  width: 100%; /* Full width */
+  height: 200px; /* Fixed height */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+  border-top-left-radius: 10px; /* Round top left corner */
+  border-top-right-radius: 10px; /* Round top right corner */
+}
+
+/* Card body styling */
+.degree-card-body {
+  padding: 15px; /* Padding for content */
+  text-align: left; /* Align text to the left */
+}
+
+/* Card title styling */
+.degree-card-title {
+  font-size: 1.2rem; /* Larger font size for titles */
+  font-weight: bold; /* Bold titles */
+  color: #333; /* Dark color for titles */
+}
+
+/* Card text styling */
+.degree-card-text {
+  color: #6c757d; /* Muted text color */
+}
+
+/* Container for the image and badge */
+.degree-card-img-wrapper {
+  position: relative; /* Relative positioning for badge */
+  width: 100%; /* Full width */
+  height: 200px;
+  position: relative; /* Set height to match the image */
+}
+
+/* Badge styling */
+.sponsored-badge {
+  position: absolute; /* Allows positioning on top of the image */
+  top: 10px; /* Position the badge slightly away from the top */
+  left: 10px; /* Position the badge slightly away from the left */
+  padding: 5px 10px; /* Padding for the badge */
+  font-size: 0.9rem; /* Adjust the badge font size */
+  border-radius: 5px; /* Rounded corners for the badge */
+  z-index: 1; /* Ensure the badge is above the image */
+}
+
+/* Card frame styling */
+.card-frame {
+  width: 100%; /* Full width */
+  max-width: 1200px; /* Maximum width */
+  margin: auto; /* Center the frame */
+  overflow: hidden; /* Hide overflow */
+  background-color: #fff; /* White background for the frame */
+}
+
+/* Custom card styling */
+.custom-card {
+  border-radius: 5px; /* Rounded corners */
+  overflow: hidden; /* Ensure content is inside the card bounds */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.custom-card:hover {
+  transform: scale(1.05); /* Slightly scale the card on hover */
+}
+
+/* Card image styling */
+.card-img-top {
+  object-fit: cover; /* Cover the area */
+  height: 200px; /* Set a fixed height for images */
+}
+
+.sidebar {
+  height: 500px; /* Set the height you want */
+  overflow-y: auto; /* Enable vertical scrolling */
+}

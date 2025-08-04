@@ -1,0 +1,14 @@
+{
+    "name": "learning",
+    "description": "A brief description of your project.",
+    "require": {
+        "monolog/monolog": "^2.0",
+        "mongodb/mongodb": "^1.20",
+        "firebase/php-jwt": "^6.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "path/to/your/classes/"
+        }
+    }
+}
